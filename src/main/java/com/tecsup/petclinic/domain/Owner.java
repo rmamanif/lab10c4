@@ -46,6 +46,14 @@ public class Owner {
 		this.lastName = last_name;
 		this.firstName = first_name;
 	}
+	
+	
+
+	public Owner(String first_name, String last_name) {
+		super();
+		this.firstName = first_name;
+		this.lastName = last_name;
+	}
 
 	public long getId() {
 		return id;
@@ -100,5 +108,8 @@ public class Owner {
 		return "Owner [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", address=" + address
 				+ ", city=" + city + ", telephone=" + telephone + "]";
 	}
+	
+	
+	
 	
 }

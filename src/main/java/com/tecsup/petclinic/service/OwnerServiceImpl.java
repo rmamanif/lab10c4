@@ -72,8 +72,9 @@ public class OwnerServiceImpl implements OwnerService {
 	 */
 	@Override
 	public List<Owner> findByLastName(String lastName) {
-		// TODO Auto-generated method stub
-		return null;
+		List<Owner> owners = ownerRepository.findByLastName(lastName);
+		owners.stream().forEach(owner ->logger.info(""+owner));
+		return owners;
 	}
 
 	/**
