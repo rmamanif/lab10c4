@@ -47,8 +47,6 @@ public class Owner {
 		this.firstName = first_name;
 	}
 	
-	
-
 	public Owner(String first_name, String last_name) {
 		super();
 		this.firstName = first_name;
