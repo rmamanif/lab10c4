@@ -4,7 +4,6 @@ import java.util.List;
 
 import com.tecsup.petclinic.domain.Owner;
 import com.tecsup.petclinic.exception.OwnerNotFoundException;
-import com.tecsup.petclinic.exception.PetNotFoundException;
 
 public interface OwnerService {
 

@@ -17,7 +17,6 @@ import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabas
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.tecsup.petclinic.domain.Owner;
 import com.tecsup.petclinic.domain.Vet;
 import com.tecsup.petclinic.exception.VetNotFoundException;
 

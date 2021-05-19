@@ -10,7 +10,6 @@ import javax.persistence.Id;
 @Entity(name = "owners" )   
 public class Owner {
 	@Id
-	
 	@GeneratedValue( strategy = GenerationType.IDENTITY )
 	private long id;
 	
